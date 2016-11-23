@@ -1,0 +1,22 @@
+<resources>
+  <string name="app_name">Stock Hawk</string>
+  <string name="action_example">Example action</string>
+  <string name="action_settings">Settings</string>
+  <string name="action_change_units">Change Units</string>
+  <string name="symbol_search">Symbol Search</string>
+  <string name="content_test">Search for a Stock Symbol</string>
+  <string name="input_hint" translatable="false">FB </string>
+  <string name="network_toast">Uh-oh! This app requires an internet connection</string>
+  <string name="robo_light_font" translatable="false">fonts/Roboto-Light.ttf</string>
+  <string name="symbol">symbol</string>
+  <string name="bid_price" translatable="false">bid_price</string>
+  <string name="percentage_change" translatable="false">percent_change</string>
+  <string name="change" translatable="false">change</string>
+
+  <string name="not_implemented">Not Implemented!</string>
+  <string name="db_success">It all works!</string>
+
+  <string name="floating_description">Add new Stock</string>
+
+  <string name="widget_title" translatable="false">StockHawk Widget</string>
+</resources>

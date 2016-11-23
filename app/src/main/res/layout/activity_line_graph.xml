@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="35dp"
+            android:weightSum="7">
+
+            <TextView
+                android:id="@+id/stock_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_size_stock_price"
+                android:gravity="center_horizontal"
+                android:textColor="@color/material_blue_500" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/stock_line_chart"
+                android:layout_width="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:minHeight="260dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
