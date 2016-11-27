@@ -12,6 +12,9 @@
   <string name="bid_price" translatable="false">bid_price</string>
   <string name="percentage_change" translatable="false">percent_change</string>
   <string name="change" translatable="false">change</string>
+  <string name="invalid_stock">You have searched for an Invalid Stock!</string>
+  <string name="stock_saved">This stock is already saved!</string>
+  <string name="input_prefill"/>
 
   <string name="not_implemented">Not Implemented!</string>
   <string name="db_success">It all works!</string>

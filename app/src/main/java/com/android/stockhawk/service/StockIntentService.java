@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.android.stockhawk.R;
 import com.google.android.gms.gcm.TaskParams;
 
 /**
@@ -44,7 +45,7 @@ public class StockIntentService extends IntentService {
                @Override
                public void run() {
                    Context context = getApplicationContext();
-                   Toast.makeText(context,"You have searched for an Invalid Stock!",Toast.LENGTH_SHORT).show();
+                   Toast.makeText(context,getString(R.string.invalid_stock),Toast.LENGTH_SHORT).show();
                }
            });
        }
